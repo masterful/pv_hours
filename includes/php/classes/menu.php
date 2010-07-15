@@ -8,13 +8,11 @@ class menu {
 	
 	//print the menu
 	public function p() {
-		echo "<ul class=\"menu\">\n";
-		echo "<li class=\"padder-left\">&nbsp;</li>\n";
+		echo "<div class=\"menu\"><ul class=\"menu\">\n";
 		foreach($this->items as $item) {
 			$item->p();
 		}
-		echo "<li class=\"padder-right\">&nbsp;</li>\n";
-		echo "</ul>\n";
+		echo "</ul></div>\n";
 	}
 	
 	//append item to the end of the menu

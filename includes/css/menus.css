@@ -26,6 +26,12 @@ ul.menu li a:visited {
  * Specific menus:
  **/
 
+#menu div.menu {
+	margin: 0px 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
 #menu ul.menu {
 	margin: 0px 10px;
 	height: 24pt;
@@ -42,18 +48,4 @@ ul.menu li a:visited {
 	font-size: 20pt;
 	line-height: 24pt;
 	padding: 0px 15px;
-}
-
-#menu ul.menu li.padder-left {
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	-webkit-border-top-left-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-}
-
-#menu ul.menu li.padder-right {
-	-moz-border-radius-topright: 5px;
-	-moz-border-radius-bottomright: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
 }

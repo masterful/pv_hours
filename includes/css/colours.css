@@ -28,8 +28,7 @@ ul.menu li a:visited {
 	background: #717275;
 }
 
-#menu ul.menu li.padder-left,
-#menu ul.menu li.padder-right,
+#menu div.menu,
 #menu ul.menu li a {
 	background: #353B42;
 }
