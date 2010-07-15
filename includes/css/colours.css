@@ -1,0 +1,45 @@
+/**
+ *  Colour Theme:
+ **/
+
+#page {
+	background: #EEFEEF;
+}
+
+#menu ul.menu li a:hover,
+#menu ul.menu li.active a:hover {
+	background: #454E5A;
+}
+
+#container {
+	background: #232529;
+}
+
+header,
+footer,
+ul.menu li a,
+ul.menu li a:active,
+ul.menu li a:hover,
+ul.menu li a:visited {
+	color: #E4E6E8;
+}
+
+#content {
+	background: #717275;
+}
+
+#menu ul.menu li.padder-left,
+#menu ul.menu li.padder-right,
+#menu ul.menu li a {
+	background: #353B42;
+}
+
+#menu ul.menu li a:hover,
+#menu ul.menu li.active a,
+#menu ul.menu li.active a:hover {
+	color: #F7CB34;
+}
+
+#menu ul.menu li.active a {
+	background: #4D525A;
+}

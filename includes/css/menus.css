@@ -1,0 +1,59 @@
+/**
+  * Styles for menus
+ **/
+
+ul.menu {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul.menu li {
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+ul.menu li a,
+ul.menu li a:active,
+ul.menu li a:hover,
+ul.menu li a:visited {
+	text-decoration: none;
+}
+
+/**
+ * Specific menus:
+ **/
+
+#menu ul.menu {
+	margin: 0px 10px;
+	height: 24pt;
+}
+
+#menu ul.menu li {
+	height: 24pt;
+}
+
+#menu ul.menu li a {
+	font-family: "Reenie Beanie", arial, serif;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #111;
+	font-size: 20pt;
+	line-height: 24pt;
+	padding: 0px 15px;
+}
+
+#menu ul.menu li.padder-left {
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+#menu ul.menu li.padder-right {
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}

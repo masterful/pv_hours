@@ -1,0 +1,41 @@
+/**
+  * Styles for body and major containers
+ **/
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+#page {
+    width: 1000px;
+    margin: 0px auto;
+	padding: 5px;
+}
+#container {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #000;
+}
+
+header {
+	padding: 5px;
+	margin: 0;
+	font-family: "Reenie Beanie", arial, serif;
+}
+#menu {
+	height: 40px;
+	width: 100%;
+	clear: both;
+}
+#content {
+	width: 100%;
+	clear: both;
+	min-height: 600px;
+}
+footer {
+	text-align: center;
+	font-size: 8pt;
+	padding: 5px;
+}

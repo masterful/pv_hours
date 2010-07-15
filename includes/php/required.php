@@ -4,5 +4,8 @@
  **/
 require_once("settings.php");
 require_once("classes/db.php");
+
+require_once("classes/menuItem.php");
+require_once("classes/menu.php");
 require_once("classes/page.php");
 ?>
