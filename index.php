@@ -12,6 +12,10 @@ require_once("includes/php/required.php");
 	<link rel="stylesheet" type="text/css" href="includes/css/styles.css" />
 	<script type="text/javascript" src="includes/js/scripts.js" async="false" defer="true"></script>
   </head>
-  <body>
-  </body>
+  <body><div id="page">
+    <div id="container">
+		<header><h2>Let's keep track of some hours ... :)</h2></header>
+		<footer>&copy; 2010 - All Rights Reserved</footer>
+	</div>
+  </div></body>
 </html>
