@@ -1,0 +1,12 @@
+# v0.1
+CACHE MANIFEST 
+#index.html
+includes/
+images/
+
+NETWORK: 
+index.php
+#api/
+
+FALLBACK: 
+#images/dynamic.php static_image.png
