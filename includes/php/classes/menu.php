@@ -31,10 +31,15 @@ class menu {
 		if ("string" == gettype($itemNum)) {
 			foreach($this->items as $item) {
 				if($item->g_name() == $itemNum) return $item;
+				foreach($item->g_matches() as $match) {
+					if($match == $itemNum) return $item;
+				}
 			}
-			return $this->items[0];
-		}else{
+			return false;
+		}elseif ("integer" == gettype($itemNum)) {
 			return $this->items[$itemNum%count($this->items)];
+		}else{
+			return false;
 		}
 	}
 	

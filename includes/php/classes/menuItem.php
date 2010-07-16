@@ -48,6 +48,11 @@ class menuItem {
 		return $this->name;
 	}
 	
+	//get url matches
+	public function g_matches() {
+		return $this->urlMatch;
+	}
+	
   //private members
 	private $url	= "";
 	private $title	= "";

@@ -16,7 +16,7 @@ require_once("includes/php/required.php");
     <div id="container">
 		<header>Let's keep track of some hours ... :)</header>
 		<div id="menu"><?php $page->p_menu(); ?></div>
-		<div id="content"></div>
+		<div id="content"><?php $page->p_content(); ?></div>
 		<footer>&copy; 2010 - All Rights Reserved</footer>
 	</div>
   </div></body>
