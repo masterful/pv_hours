@@ -7,7 +7,7 @@ class page {
 	public function page() {
 		//populate the main menu
 		$this->mainMenu = new menu();
-		$this->mainMenu->appendItem( "Home", $settings->rootURL );
+		$this->mainMenu->appendItem( "Home", $settings->rootURL . "home" )->addMatch( $settings->rootURL );
 		$this->mainMenu->appendItem( "Calendar", $settings->rootURL . "calendar" );
 		$this->mainMenu->appendItem( "Details", $settings->rootURL . "details" );
 		$this->mainMenu->appendItem( "Login", $settings->rootURL . "login" );
