@@ -5,5 +5,6 @@
 class settings {
 	public $rootURL = "/pvh/";
 }
+global $settings;
 $settings = new settings();
 ?>

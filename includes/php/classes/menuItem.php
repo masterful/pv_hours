@@ -8,7 +8,7 @@ class menuItem {
 		$this->url		= $itemURL;
 		$this->title	= "Go to the " . $itemName . " page.";
 		$this->name		= $itemName;
-		$this->urlMatch	= array($itemURL);
+		$this->urlMatch	= array($itemURL, $itemName);
 	}
 	
 	//print the menu item
